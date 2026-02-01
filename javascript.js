@@ -4,7 +4,8 @@
 let humanScore = 0
 let computerScore = 0
 
-//Making both players to play a single round
+//Write a function that takes both choices, 
+// plays a single round and declares it's result with increasing winner's score
 
 function playRound(humanChoice, computerChoice){
     
@@ -74,14 +75,16 @@ function getComputerChoice(){
     }
 }
 
-//Player enters their own value, for this project, we assume that player always enters the right value
+//Player enters their own value, 
+// for this project, we assume that player always enters the right value
 function getHumanChoice(){
     let choice = prompt("Enter your choice: ")
     choice = choice.toLowerCase()
     return choice;
 }
 
-//Making a function to show each player's value and play 5 rounds
+//Make a function to show each player's choice, score, 
+// plays 5 rounds and declares a winner at the end
 function playGame(){
     let rounds = 0;
     while(rounds < 5)
