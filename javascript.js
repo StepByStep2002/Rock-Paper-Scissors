@@ -108,11 +108,11 @@ choiceRock.addEventListener("click", () => {
     gameEnd()
 });
 choicePaper.addEventListener("click", () => {
-    playRound("rock", getComputerChoice())
+    playRound("paper", getComputerChoice())
     gameEnd()
 });
 choiceScissors.addEventListener("click", () => {
-    playRound("rock", getComputerChoice())
+    playRound("scissors", getComputerChoice())
     gameEnd()
 });
 
